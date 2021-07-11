@@ -5,7 +5,7 @@ Creates a simple perlin noise texture in Rust.
 image-noise = "0.1.0"
 ```
 
-Really, this is a simple wrapper over 
+Really, this is a simple wrapper over [txture](https://docs.rs/txture/), making it easier to be used with the [image](https://docs.rs/image/) crate.
 
 ```rust
 let image = image_noise::noise_image(1000, 10);
@@ -20,4 +20,4 @@ image
 file.write_all(&bytes).unwrap();
 ```
 
-![example image](image.png)
+![example image](https://github.com/grantshandy/image-noise/blob/main/image.png?raw=true)
