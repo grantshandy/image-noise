@@ -1,0 +1,16 @@
+[package]
+name = "image-noise"
+version = "0.1.0"
+edition = "2018"
+description = "Creates a simple perlin noise texture in Rust"
+keywords = ["noise", "perlin", "image"]
+authors = ["Grant Handy <grantshandy@gmail.com"]
+repository = "https://github.com/grantshandy/image-noise"
+documentation = "https://docs.rs/image-noise"
+license = "GPL-3.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+txture = "0.1"
+image = "0.23"
